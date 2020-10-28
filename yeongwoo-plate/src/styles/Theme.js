@@ -3,7 +3,7 @@ const BOX_BORDER = "1px solid #e6e6e6";
 const BORDER_RADIUS = "4px";
 
 export default {
-  maxWidth: "935px",
+  maxWidth: "1248px",
   bgColor: "#FAFAFA",
   blackColor: "#262626",
   darkGreyColor: "#999",
@@ -14,6 +14,7 @@ export default {
   lightOrangeColor: "#ffa684", // 템플릿 1 번 색상
   darkBlueColor: "#003569",
   boxBorder: "1px solid #e6e6e6",
+  darkOrange: "#ED7014",
   borderRadius: "4px",
   whiteBox: `${BOX_BORDER};
              ${BORDER_RADIUS};

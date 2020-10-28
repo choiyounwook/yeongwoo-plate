@@ -1,14 +1,3 @@
-# # YEONGWOO PLATE
-BigdataProject(2020.08.31 ~ 2020.10.08)
-
-## Back end
-* DBMS: MySQL
-* REST API: Django Framework
-* 웹 서버: AWS EC2 서버
-
-## Front end
-* React
-
 # YEONGWOO PLATE
 > BigdataProject, 2020.08.31 ~ 2020.10.08
 

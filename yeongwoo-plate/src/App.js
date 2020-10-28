@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { HashRouter as Router } from "react-router-dom";
 import styled, { ThemeProvider } from "styled-components";
 import SearchHeader from "./components/SearchHeader";
+import Footer from "./components/Footer";
 import GlobalStyles from "./styles/GlabalStyles";
 import Theme from "./styles/Theme";
 import Routes from "./components/Routes";
@@ -9,6 +10,8 @@ import { connect } from "react-redux";
 import { fetchDataStarted } from "./actions";
 import "antd/dist/antd.css";
 import "semantic-ui-css/semantic.min.css";
+import { instanceOf } from "prop-types";
+import { withCookies, Cookies } from "react-cookie";
 
 const Wrapper = styled.div`
   margin: 0 auto;
@@ -17,6 +20,10 @@ const Wrapper = styled.div`
 `;
 
 class App extends Component {
+  static propTypes = {
+    cookies: instanceOf(Cookies).isRequired,
+  };
+
   onSearchStores = (params) => {
     this.props.dispatch(fetchDataStarted(params));
   };
@@ -32,6 +39,7 @@ class App extends Component {
               <Wrapper>
                 <Routes onSearchStores={this.onSearchStores} all={this.props} />
               </Wrapper>
+              <Footer />
             </>
           </Router>
         </>
@@ -47,4 +55,4 @@ let mapStateToProps = (state) => {
 
 App = connect(mapStateToProps, null)(App);
 
-export default App;
+export default withCookies(App);

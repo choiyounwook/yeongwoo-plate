@@ -1,6 +1,5 @@
-# BigdataProject(Yoengwoo-plate)
+# # YEONGWOO PLATE
 BigdataProject(2020.08.31 ~ 2020.10.08)
-앱 이름은 아직 미정, 임시 프로젝트명 Yoengwoo-plate
 
 ## Back end
 * DBMS: MySQL

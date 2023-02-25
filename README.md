@@ -1,6 +1,16 @@
 # YEONGWOO PLATE 백엔드 개발 진행(2023.02~)
 > JAVA 11, JPA, MySQL
 
+
+
+
+
+
+
+
+
+
+
 # YEONGWOO PLATE
 > BigdataProject, 2020.08.31 ~ 2020.10.08
 

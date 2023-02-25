@@ -1,3 +1,6 @@
+# YEONGWOO PLATE 백엔드 개발 진행(2023.02~)
+> JAVA 11, JPA, MySQL
+
 # YEONGWOO PLATE
 > BigdataProject, 2020.08.31 ~ 2020.10.08
 
@@ -104,7 +107,3 @@ yarn start
 -----------------------------
 <b>백엔드는 SSAFY(삼성 청년 SW 아카데미)에서 제공하는 스켈레톤 코드를 쓰고 있어 외부로 유출이 불가</b>
 
-
-----------------------
-# YEONGWOO PLATE 백엔드 개발 진행( 2023.02~)
-> JAVA 11, JPA, MySQL,

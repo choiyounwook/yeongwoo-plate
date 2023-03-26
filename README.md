@@ -1,5 +1,5 @@
 # YEONGWOO PLATE 백엔드 개발 진행(2023.02~)
-> JAVA 8 JPA, MySQL
+> 기술 스택 : Spring Boot, JAVA 8 JPA, MySQL
 
 
 

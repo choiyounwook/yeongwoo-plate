@@ -11,7 +11,7 @@
 
 
 
-# YEONGWOO PLATE
+# YEONGWOO PLATE 프론트엔드
 > BigdataProject, 2020.08.31 ~ 2020.10.08
 
 ## 목차
